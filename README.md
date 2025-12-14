@@ -1,89 +1,115 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de Gestão Finceira e Comercial com Vibe Coding
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+## Contexto e Problema
+Muitos pequenos negócios, especialmente lojas de roupas infantis e microempreendedores individuais (MEIs), enfrentam dificuldades para controlar entradas e saídas de dinheiro. A ausência de ferramentas simples de gestão financeira compromete o fluxo de caixa e a tomada de decisões, dificultando o crescimento sustentável.
 
-## ✨ O que é Vibe Coding
+## Público-Alvo
+- MEIs (Microempreendedores Individuais)
+- Pequenos negócios locais que precisam de uma solução prática e acessível para organizar suas finanças.
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+## Objetivo do Produto
+Oferecer um aplicativo simples e intuitivo que permita ao empreendedor:
+- Registrar clientes e suas compras.
+- Controlar recebimentos e pagamentos.
+- Acompanhar o fluxo de caixa de forma clara.
+- Facilitar a tomada de decisão com relatórios básicos e personalizados.
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+## Princípio de Design Universal
+A solução será desenvolvida com base em Design Universal, garantindo:
+- Acessibilidade: interface clara, com contraste adequado, fontes legíveis e navegação intuitiva.
+- Inclusão: suporte para diferentes perfis de usuários, independentemente de idade, nível de escolaridade ou familiaridade com tecnologia.
+- Experiência consistente: funcionamento fluido em diferentes dispositivos (smartphones, tablets, computadores).
+- Usabilidade ampliada: recursos pensados para reduzir barreiras e permitir que o máximo de pessoas utilize o aplicativo com facilidade.
 
-## 🎯 Desafio
+## Funcionalidades-Chave
+1. Cadastro de clientes
+   - Informações: nome, CPF, telefone, endereço.
+   - Possibilidade de editar e excluir registros.
+2. Classificação automática de transações
+   - Diferenciar entradas (recebimentos) e saídas (pagamentos).
+   - Categorizar por tipo (ex.: venda, despesa fixa, compra de estoque).
+3. Registro de entradas e saídas de numerário
+   - Inserção manual de valores.
+   - Histórico de movimentações.
+4. Gestão de saldos de clientes
+   - Atualização automática do saldo devedor conforme compras e pagamentos.
+   - Visualização individual por cliente.
+5. Relatórios simples e personalizados
+   - Fluxo de caixa (diário, semanal, mensal).
+   - Relatório de clientes (inadimplentes, ativos).
+   - Exportação em formato básico (PDF ou Excel).
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+## Plano de MVP (Produto Mínimo Viável)
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+### Principais Telas
+- Tela de Login/Cadastro: acesso seguro ao sistema.
+- Dashboard inicial: visão geral do fluxo de caixa.
+- Cadastro de clientes: formulário simples.
+- Registro de transações: entradas e saídas.
+- Relatórios básicos: fluxo de caixa e clientes.
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+### Recursos Necessários
+- Banco de dados simples (SQLite ou Firebase).
+- Interface amigável e acessível (mobile-first, com princípios de Design Universal).
+- Funções básicas de CRUD (Create, Read, Update, Delete).
+- Algoritmo simples para classificação de transações.
 
-## 🪄 Etapas do Desafio
+### Validação Inicial
+- Testar com 5 a 10 pequenos empreendedores locais.
+- Coletar feedback sobre:
+  - Facilidade de uso.
+  - Clareza dos relatórios.
+  - Utilidade do controle de clientes e fluxo de caixa.
+  - Inclusão e acessibilidade da interface.
+- Ajustar funcionalidades conforme necessidades reais.
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+## Tom Educativo
+Este aplicativo será construído com foco em simplicidade, acessibilidade e inclusão, permitindo que qualquer empreendedor, mesmo sem experiência em tecnologia, consiga utilizá-lo para organizar suas finanças. O MVP deve ser enxuto, mas funcional, garantindo que o usuário perceba valor logo nos primeiros usos.
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+Resultado final no lovable: link >> https://vitrine-contabil.lovable.app/
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+<img width="1896" height="897" alt="image" src="https://github.com/user-attachments/assets/1dc6e63f-ad4a-438e-9e98-803821fbc946" />
+<img width="1906" height="916" alt="image" src="https://github.com/user-attachments/assets/733c256f-891d-4014-b1dd-9f6d3408f8d2" />
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+### Resumo
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+O site “GestãoFácil – Controle Financeiro para MEI” oferece relatórios de fluxo de caixa, análise de entradas e saídas, categorização de transações e visão consolidada de clientes, ajudando pequenos negócios a acompanhar sua saúde financeira.
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+# Resumo das funcionalidades principais do site de relatórios
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-```
+## Análise do negócio por período
+- Exibe resultados consolidados do mês atual.
+- Permite exportar relatórios para acompanhamento externo.
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+## Fluxo de caixa detalhado
+- Mostra o total de entradas (R$ 4.529,50) e saídas (R$ 2.300,00).
+- Calcula automaticamente o resultado líquido (R$ 2.229,50).
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+## Entradas por categoria
+- Exemplo: Vendas (R$ 429,50) e Recebimentos (R$ 100,00).
+- Facilita identificar quais fontes geram maior receita.
 
-### 2. Explorando o Lovable na Prática
+## Saídas por categoria
+- Exemplo: Despesas fixas (R$ 800,00) e compra de estoque (R$ 1.500,00).
+- Ajuda a visualizar onde estão os maiores gastos.
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+## Relatórios de clientes
+- Permite acompanhar movimentações e saldos relacionados a clientes.
+- Apoia na gestão de inadimplência e relacionamento.
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+## Integração com outras áreas do sistema
+- Links diretos para Dashboard, Clientes, Produtos, Vendas, Transações e Configurações.
+- Cria uma visão integrada da gestão financeira.
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+---
+O módulo de relatórios do **GestãoFácil** é voltado para MEIs e pequenos negócios, oferecendo uma visão clara e acessível das finanças. Ele combina simplicidade com organização por categorias, permitindo que o empreendedor entenda rapidamente o desempenho do negócio e tome decisões mais informadas.
 
-### 3. Entregando o Desafio na DIO
-
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
-
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
+  - O que funcionou bem?
+  O refinamento feito do PRD no copilot ajudou bastane a não consimir todo os creditos. 
+  - O que não funcionou como o esperado?
+  Os dados criados pelo sistema sao apenas simulados e não atualiza quando inserimos novos dados por não ser salvos em nunhum banco de dados, o que seria resolvido se habilitasse o lovable cloud.   
   - O que aprendeu sobre conversar com IAs?
+  Aprendi que quanto mais detalhadas e precisas as informaçoes, nos será devolvido um resultado melhor.
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
-
-## 💬 Conclusão
-
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
